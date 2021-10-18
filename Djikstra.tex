@@ -171,7 +171,7 @@ Same goes for all the other coffee delivery locations. Thus the introductory pro
  
     \begin{figure}[H]
         \centering
-        \includegraphics[width=150mm,scale=0.5]{TSP/images/suchir.png}
+        \includegraphics[width=150mm,scale=0.5]{images/suchir.png}
         \caption{Pub crawl locations on Google Maps}
         \label{fig:suchir}
     \end{figure}
@@ -195,7 +195,7 @@ As you can see from Table \ref{tab:suchirCostMatrix} the cost(distance) from $O\
 \end{center}
 \begin{figure}[H]
         \centering
-        \includegraphics[width=100mm,scale=0.5]{TSP/images/suchirGraph.png}
+        \includegraphics[width=100mm,scale=0.5]{images/suchirGraph.png}
         \caption{Directed Graph of Suchir's trip}
         \label{fig:suchirGraph}
     \end{figure}
@@ -232,7 +232,7 @@ In mathematics, TSP can be modelled using the principles of Graph Theory and int
 \paragraph{Graph Theory} involves the exploration of graphs to study the relationship between object pairs.\citep{4} To model the TSP using Graph theory locations are defined as \textbf{nodes/vertices} and the path between $2$ locations is defined as an \textbf{edge/link}. To make it simpler to study the TSP using Graph Theory we assume that the graph is complete. This means that every node is connected to every other node by an edge. In the case where the graph is not complete a very long edge is made between the two nodes assuming that such a long edge would never appear in the optimal solution. Modelling Example 2 using graph theory would give us the below graph.
 \begin{figure}[H]
     \centering
-        \includegraphics[width=90mm,scale=0.5]{TSP/images/PubCrawlGraph.png}
+        \includegraphics[width=90mm,scale=0.5]{images/PubCrawlGraph.png}
         \caption{Graph of Mark's pub crawl}
         \label{fig:markGraph}
 \end{figure}
@@ -273,7 +273,7 @@ The the total number of edges can be defined as $\frac{n^2+n}{2}$ for $n$ nodes.
 
 \begin{figure}[H]
     \centering
-    \includegraphics{TSP/images/CoffeeGraph.png}
+    \includegraphics{images/CoffeeGraph.png}
     \caption{Introduction problem graph}
     \label{fig:my_label}
 \end{figure}
@@ -434,7 +434,7 @@ Having a symmetric TSP helps a lot as it halves the total number of paths that n
 Looking at Table \ref{tab:BruteForcePathsNumbers} we can tell that the Brute Force approach become impractical at just 20 nodes to do by hand. As this would mean that the cost for every node has to be calculated and the value of the minimum has to be stores. Thus it makes it impossible for us to solve the introductory problem without the use of a computer. The graph below shows the relation between the number of nodes and number of possible paths. 
 \begin{figure}[H]
     \centering
-        \includegraphics[width=150mm,scale=0.5]{TSP/images/graphNodesAndPaths.png}
+        \includegraphics[width=150mm,scale=0.5]{images/graphNodesAndPaths.png}
         \caption{Nodes and Possible Paths}
         \label{fig:nodesAndPaths}
 \end{figure}
